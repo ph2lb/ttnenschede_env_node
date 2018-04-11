@@ -1,4 +1,4 @@
-# LoRaWAN_TTN_Env_Node
+# ttnenschede_env_node
 
 Description : 
  - A low power BME280 based enviromental datalogger node for the ThingsNetwork with deepsleep support and variable interval using a LMIC ABP. Compatible with https://github.com/ph2lb/LoRaWAN_TTN_Env 
@@ -56,4 +56,4 @@ You can use Cayenne LPP ofa HTTP integration on the TTN with the decoder / paylo
        
       return retValue; 
     } 
-# ttnenschede_env_node
+

@@ -87,7 +87,7 @@
 #include  "adcvcc.h"  
 #include  "BME280I2C.h"
  
-#define USE_CAYENNE 1
+// #define USE_CAYENNE 1
 
 #ifdef USE_CAYENNE
 #include "CayenneLPP.h"

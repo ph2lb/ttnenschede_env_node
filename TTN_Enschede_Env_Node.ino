@@ -354,7 +354,7 @@ void showBootStatus(uint8_t _mcusr)
   {
     debugPrint(F(" BOR"));
     _mcusr &= ~(1<<BORF);
-    // bootFromBrownOut = true;
+    bootFromBrownOut = true;         // soms geeft dit problemen (brownout wordt niet goed gezien) zet hem dan op false.
   }
   if (_mcusr & (1<<EXTRF))
   {
